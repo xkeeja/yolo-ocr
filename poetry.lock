@@ -3060,29 +3060,30 @@ files = [
 
 [[package]]
 name = "torch"
-version = "1.9.0"
+version = "1.11.0"
 description = "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
 optional = false
-python-versions = ">=3.6.2"
+python-versions = ">=3.7.0"
 files = [
-    {file = "torch-1.9.0-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:3a2d070cf28860d285d4ab156f3954c0c1d12f4c037aa312a7c029227c0d106b"},
-    {file = "torch-1.9.0-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:b296e65e25081af147af936f1e3a1f17f583a9afacfa5309742678ffef728ace"},
-    {file = "torch-1.9.0-cp36-cp36m-win_amd64.whl", hash = "sha256:117098d4924b260a24a47c6b3fe37f2ae41f04a2ea2eff9f553ae9210b12fa54"},
-    {file = "torch-1.9.0-cp36-none-macosx_10_9_x86_64.whl", hash = "sha256:d6103b9a634993bd967337a1149f9d8b23922f42a3660676239399e15c1b4515"},
-    {file = "torch-1.9.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:0164673908e6b291ace592d382eba3e258b3bad009b8078cad8f3b9e00d8f23e"},
-    {file = "torch-1.9.0-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:52548b45efff772fe3810fe91daf34f981ac0ca1a7227f6226fd5693f53b5b88"},
-    {file = "torch-1.9.0-cp37-cp37m-win_amd64.whl", hash = "sha256:62c0a7e433681d0861494d1ede96d2485e4dbb3ea8fd867e8419addebf5de1af"},
-    {file = "torch-1.9.0-cp37-none-macosx_10_9_x86_64.whl", hash = "sha256:d88333091fd1627894bbf0d6dcef58a90e36bdf0d90a5d4675b5e07e72075511"},
-    {file = "torch-1.9.0-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:1d8139dcc864f48dc316376384f50e47a459284ad1cb84449242f4964e25aaec"},
-    {file = "torch-1.9.0-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:0aa4cca3f16fab40cb8dae6a49d0eccdc8f4ead9d1a6428cd9ba12befe082b2a"},
-    {file = "torch-1.9.0-cp38-cp38-win_amd64.whl", hash = "sha256:646de1bef85d6c7590e98f8ea52e47acdcf58330982e4f5d73f5ca28dea2d552"},
-    {file = "torch-1.9.0-cp38-none-macosx_10_9_x86_64.whl", hash = "sha256:e596f0105f748cf09d4763152d8157aaf58d5231232eaf2c5673d4562ba86ad3"},
-    {file = "torch-1.9.0-cp38-none-macosx_11_0_arm64.whl", hash = "sha256:ecc7193fff7741ced3db1f760666c8454d6664956288c54d1b49613b987a42f4"},
-    {file = "torch-1.9.0-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:95eeec3a6c42fd35aca552777b7d9979ed489760423de97c0118a45e849a61f4"},
-    {file = "torch-1.9.0-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:8a2b2012b3c7d6019e189496688fa77de7029a220840b406d8302d1c8021a11c"},
-    {file = "torch-1.9.0-cp39-cp39-win_amd64.whl", hash = "sha256:7e2b14fe5b3a8266cbe2f6740c0195497507974ced7bc21e99971561913a0c28"},
-    {file = "torch-1.9.0-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:0a9e74b5057463ce4e55d9332a5670993fc9e1299c52e1740e505eda106fb355"},
-    {file = "torch-1.9.0-cp39-none-macosx_11_0_arm64.whl", hash = "sha256:569ead6ae6bb0e636df0fc8af660ef03260e630dc5f2f4cf3198027e7b6bb481"},
+    {file = "torch-1.11.0-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:62052b50fffc29ca7afc0c04ef8206b6f1ca9d10629cb543077e12967e8d0398"},
+    {file = "torch-1.11.0-cp310-cp310-manylinux2014_aarch64.whl", hash = "sha256:866bfba29ac98dec35d893d8e17eaec149d0ac7a53be7baae5c98069897db667"},
+    {file = "torch-1.11.0-cp310-cp310-win_amd64.whl", hash = "sha256:951640fb8db308a59d9b510e7d1ad910aff92913323bbe4bc75435347ddd346d"},
+    {file = "torch-1.11.0-cp310-none-macosx_10_9_x86_64.whl", hash = "sha256:5d77b5ece78fdafa5c7f42995ff9474399d22571cd6b2de21a5d666306a2ff8c"},
+    {file = "torch-1.11.0-cp310-none-macosx_11_0_arm64.whl", hash = "sha256:b5a38682769b544c875ecc34bcb81fbad5c922139b61319aacffcfd8a32f528c"},
+    {file = "torch-1.11.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:f82d77695a60626f2b7382d85bc566de8a6b3e50d32080755abc040db802e419"},
+    {file = "torch-1.11.0-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:b96654d42566080a134e784705f33f8536b3b95b5dcde357ed7879b1692a5f78"},
+    {file = "torch-1.11.0-cp37-cp37m-win_amd64.whl", hash = "sha256:8ee7c2e8d7f7020d5bfbc1bb91b9591044c26bbd0cee5e4f694cfd7ed8649260"},
+    {file = "torch-1.11.0-cp37-none-macosx_10_9_x86_64.whl", hash = "sha256:6860b1d1bf0bb0b67a6bd47f85a0e4c825b518eea13b5d6101999dbbcbd5bc0c"},
+    {file = "torch-1.11.0-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:4322aa29f50da7f404db06cdf30896ea67b09f673af4a985afc7162bc897864d"},
+    {file = "torch-1.11.0-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:e4d2e0ddd652f30e94cff750220324ec45705d4ecc69658f773b3cb1c7a28dd0"},
+    {file = "torch-1.11.0-cp38-cp38-win_amd64.whl", hash = "sha256:34ce5ea4d8d85da32cdbadb50d4585106901e9f8a3527991daa70c13a09de1f7"},
+    {file = "torch-1.11.0-cp38-none-macosx_10_9_x86_64.whl", hash = "sha256:0ccc85cd06227a3edf809e2c795fd5762c3d4e8a38b5c9f744c6e7cf841361bb"},
+    {file = "torch-1.11.0-cp38-none-macosx_11_0_arm64.whl", hash = "sha256:c1554e49d74f1b2c3e7202d77056ba2dd7465437585bac64062b580f714a44e9"},
+    {file = "torch-1.11.0-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:58c7814502b1c129a650d7092033bbb0bbd64faf1a7941631aaa1aeaddc37570"},
+    {file = "torch-1.11.0-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:831cf588f01dda9409e75576741d2823453990dee2983d670f2584b37a01adf7"},
+    {file = "torch-1.11.0-cp39-cp39-win_amd64.whl", hash = "sha256:44a1d02fd20f827f0f36dc26fdcfc45e793806a6ad52769a22260655a77a4369"},
+    {file = "torch-1.11.0-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:50fd9bf85c578c871c28f1cb0ace9dfc6024401c7f399b174fb0f370899f4454"},
+    {file = "torch-1.11.0-cp39-none-macosx_11_0_arm64.whl", hash = "sha256:0e48af66ad755f0f9c5f2664028a414f57c49d6adc37e77e06fe0004da4edb61"},
 ]
 
 [package.dependencies]
@@ -3379,4 +3380,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8,<3.9"
-content-hash = "6ff393d6cf8812895bfd19145d93102735019e8af3fcd618ee4db27a1f7e2692"
+content-hash = "d1bb80534ac95aa5ddffa6633922d67227e1ba339a3555ae123d4f8866e8e7be"
