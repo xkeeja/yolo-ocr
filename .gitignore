@@ -3,4 +3,4 @@
 .python-version
 *.pt
 
-data/
+*.jpg
